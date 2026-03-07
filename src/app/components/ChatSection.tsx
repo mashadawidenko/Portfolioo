@@ -101,7 +101,7 @@ export function ChatSection() {
   }, [hasStarted]);
 
   return (
-    <section ref={sectionRef} className="py-16 md:py-24">
+    <section ref={sectionRef} className="py-24 md:py-36">
       <div className="max-w-[593px] mx-auto px-6">
         <div className="flex flex-col gap-10 md:gap-12">
           {/* First grey messages group */}
