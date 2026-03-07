@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import imgEllipse4 from "figma:asset/70dde8dd6a215c136e38b93832c110347357ed16.png";
+import imgEllipse4 from "../../assets/70dde8dd6a215c136e38b93832c110347357ed16.png";
 
 interface ChatMessage {
   id: number;
