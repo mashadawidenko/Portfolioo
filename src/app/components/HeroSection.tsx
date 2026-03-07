@@ -3,7 +3,7 @@ import { AnimatedSection } from "./AnimatedSection";
 
 export function HeroSection() {
   return (
-    <section className="max-w-[1600px] mx-auto px-6 md:px-12 lg:px-0 pt-12 md:pt-20 pb-120">
+    <section className="max-w-[1600px] mx-auto px-6 md:px-12 lg:px-0 pt-12 md:pt-40 pb-60">
       <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
         <div className="flex flex-col gap-10 md:gap-14 max-w-[810px]">
           <AnimatedSection>
