@@ -1,14 +1,14 @@
 import clsx from "clsx";
 import svgPaths from "./svg-7wmd1n95bc";
 import { imgGroup } from "./svg-x76h7";
-import imgEllipse4 from "figma:asset/70dde8dd6a215c136e38b93832c110347357ed16.png";
-import imgRectangle1 from "figma:asset/d8d99c1159d799482f608fe59d26e2d589d52354.png";
-import imgRectangle2 from "figma:asset/fcc79264b5cb22f56fb888b9720e5baa02803e24.png";
-import imgRectangle3 from "figma:asset/71754697a5136c744a2c3c03606645bc275bc8ce.png";
-import imgRectangle4 from "figma:asset/19a8650f0e445be59b32962a5b74c3686916cc75.png";
-import imgRectangle5 from "figma:asset/22e38510fe418ed385b1f5f607d3c9ece599b583.png";
-import imgRectangle6 from "figma:asset/0da72f2537b77bc9d1a4aad44c7ea244f406a6c3.png";
-import imgRectangle7 from "figma:asset/098ba28c81640a0a7e87fa113ee7a708c00e3377.png";
+import imgEllipse4 from "../../assets/70dde8dd6a215c136e38b93832c110347357ed16.png";
+import imgRectangle1 from "../../assets/d8d99c1159d799482f608fe59d26e2d589d52354.png";
+import imgRectangle2 from "../../assets/fcc79264b5cb22f56fb888b9720e5baa02803e24.png";
+import imgRectangle3 from "../../assets/71754697a5136c744a2c3c03606645bc275bc8ce.png";
+import imgRectangle4 from "../../assets/19a8650f0e445be59b32962a5b74c3686916cc75.png";
+import imgRectangle5 from "../../assets/22e38510fe418ed385b1f5f607d3c9ece599b583.png";
+import imgRectangle6 from "../../assets/0da72f2537b77bc9d1a4aad44c7ea244f406a6c3.png";
+import imgRectangle7 from "../../assets/098ba28c81640a0a7e87fa113ee7a708c00e3377.png";
 
 function Wrapper6({ children }: React.PropsWithChildren<{}>) {
   return (
