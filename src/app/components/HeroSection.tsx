@@ -1,5 +1,6 @@
 import svgPaths from "../../imports/svg-7wmd1n95bc";
 import { AnimatedSection } from "./AnimatedSection";
+import ellipseImg from "../../assets/djj3840dkscmv9493kwwk.png";
 
 export function HeroSection() {
   return (
@@ -8,14 +9,23 @@ export function HeroSection() {
         <div className="flex flex-col gap-10 md:gap-14 max-w-[810px]">
           <AnimatedSection>
             <div className="flex flex-col gap-4 md:gap-7">
+              <div className="mb-4 md:mb-6 shrink-0">
+                <img 
+                src={ellipseImg} 
+                alt="Decorative ellipse" 
+                className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] object-contain" 
+                />
+             </div>
               <p className="font-['Instrument_Sans',sans-serif] text-[#171717] text-[36px] md:text-[50px] lg:text-[60px] leading-[1.15] tracking-[-2px]">
                 I'm Maria,
               </p>
-              <p className="font-['Instrument_Sans',sans-serif] text-[#171717] text-[36px] md:text-[50px] lg:text-[60px] leading-[1.15] tracking-[-2px]">
-                a UI/UX Designer working on{" "}
-                <span className="italic text-[#8ecf25] underline">web</span>{" "}
+              <p className="font-['Instrument_Sans',sans-serif] text-[#AAAAAA] text-[36px] md:text-[50px] lg:text-[60px] leading-[1.15] tracking-[-2px]">
+                a{" "}
+                <span className="text-[#171717]">UI/UX Designer</span>{" "}
+                working on{" "}
+                <span className="text-[#171717]">web</span>{" "}
                 and{" "}
-                <span className="italic text-[#8ecf25] underline">mobile products</span>.
+                <span className="text-[#171717]">mobile products</span>.
               </p>
             </div>
           </AnimatedSection>

@@ -42,6 +42,21 @@ const experiences: ExperienceItem[] = [
     location: "Russia, Moscow",
     title: "JTI - Japan Tobacco International (Contract)",
     role: "Role: UI UX Designer",
+    projectInfo: [
+      { label: "Project", value: "Fintech app for invoicing and service management (USA, Canada, Australia)" },
+      { label: "Target audience", value: "Freelancers, small business, and self-employed" },
+      { label: "Tools", value: "Figma, Miro" },
+    ],
+    details: [
+      "Designed 60+ iOS app screens with comprehensive logic and UX for all key functions: creating and editing invoices, estimates, adding services, invoice templates, client database, services catalog, account settings, PDF export;",
+      "Handled the entire project independently, including UX, UI, prototyping, design system, and UX copy;",
+      "Conducted competitive analysis and SWOT, including studying features of foreign apps, identifying insights, forming JTBD; defined product strategy: target semi-automation segment for busy freelancers and small businesses, ensure smooth onboarding without pressure;",
+      "Optimized user flow for invoice creation: implemented templates to reduce steps, speed up the process, and lower cognitive load for users;",
+      "Developed all UX copy independently, including formulations for complex and repetitive scenarios, coordinated directly with the developer;",
+      "Closely collaborated with client-developer: discussed and documented solutions, ensuring correct implementation of all UX/UI patterns;",
+      "Created unified style and layouts ensuring interface consistency, ease of working with client database and services catalog;",
+      "Participated in all project stages: from competitor analysis and feature planning to handing off prototypes for MVP development.",
+    ],
   },
 ];
 
@@ -100,7 +115,7 @@ function AccordionItem({ item }: { item: ExperienceItem }) {
               <ul className="flex flex-col gap-1">
                 {item.details.map((detail, i) => (
                   <li key={i} className="font-['Instrument_Sans',sans-serif] text-[#464646] text-[16px] leading-[24px]">
-                    \u2022 {detail}
+                    • {detail}
                   </li>
                 ))}
               </ul>
