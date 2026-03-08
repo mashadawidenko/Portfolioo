@@ -21,11 +21,19 @@ export default function App() {
           />
         </svg>
       </div>
-      <div className="absolute top-[1600px] right-[-200px] w-[800px] h-[800px] pointer-events-none -z-0">
-        <svg width="100%" height="100%" viewBox="0 0 800 800" fill="none">
-          <circle cx="400" cy="400" r="300" stroke="#F9F9F9" strokeWidth="300" fill="none" />
-        </svg>
-      </div>
+      <div className="absolute top-[2000px] right-[-400px] w-[1200px] h-[1200px] pointer-events-none -z-0">
+  <svg width="100%" height="100%" viewBox="0 0 1200 1200" fill="none">
+    <circle 
+      cx="600" 
+      cy="600" 
+      r="300" 
+      stroke="#F9F9F9" 
+      strokeWidth="341" 
+      fill="none" 
+      strokeLinecap="round"
+    />
+  </svg>
+</div>
 
       <div className="relative z-10">
         <Header />

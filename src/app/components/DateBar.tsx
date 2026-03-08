@@ -23,7 +23,7 @@ export function DateBar() {
   });
 
   return (
-    <div className="border-y border-[#dadada] py-4 px-6 md:px-10 lg:px-[160px]">
+    <div className="border-b border-[#dadada] py-4 px-6 md:px-10 lg:px-[160px]">
       <div className="max-w-[1600px] mx-auto flex items-center justify-between">
         <span className="font-['Instrument_Sans',sans-serif] text-[#161616] text-[14px] md:text-[16px] leading-[28px]">
           {dateStr}

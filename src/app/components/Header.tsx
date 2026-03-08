@@ -3,7 +3,7 @@ import svgPaths from "../../imports/svg-7wmd1n95bc";
 export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-sm border-b border-[#dadada]">
-      <div className="max-w-[1600px] mx-auto px-6 md:px-10 lg:px-[160px] py-4 md:py-6 flex items-center justify-between">
+      <div className="max-w-[1600px] mx-auto px-6 md:px-12 lg:px-0 py-4 md:py-6 flex items-center justify-between">
         <div className="flex gap-2.5 items-center">
           <div className="relative shrink-0 size-5">
             <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 20 20">

@@ -5,7 +5,7 @@ import ellipseImg from "../../assets/djj3840dkscmv9493kwwk.png";
 export function HeroSection() {
   return (
    <section className="max-w-[1600px] mx-auto px-6 md:px-12 lg:px-0 pt-24 md:pt-40 pb-24 md:pb-46">
-      <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
+      <div className="flex flex-col-reverse lg:flex-row items-start justify-between gap-8">
         <div className="flex flex-col gap-10 md:gap-14 max-w-[810px]">
           <AnimatedSection>
             <div className="flex flex-col gap-4 md:gap-7">
@@ -34,7 +34,7 @@ export function HeroSection() {
             <div className="flex gap-4 items-start">
               <div className="relative shrink-0 size-8 mt-1">
                 <svg className="absolute block size-full" fill="none" viewBox="0 0 32 32">
-                  <path d={svgPaths.p15906a00} fill="#BAF45D" />
+                  <path d={svgPaths.p15906a00} fill="#F15DF4" />
                 </svg>
               </div>
               <p className="font-['Instrument_Sans',sans-serif] text-[#535353] text-[16px] md:text-[18px] lg:text-[20px] leading-[28px] max-w-[750px]">
